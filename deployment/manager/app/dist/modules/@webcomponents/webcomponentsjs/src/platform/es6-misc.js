@@ -1,0 +1,2 @@
+/*! For license information please see es6-misc.js.LICENSE.txt */
+if(Array.from||(Array.from=t=>[].slice.call(t)),!Object.assign){const t=(t,c)=>{const e=Object.keys(c);for(let n=0;n<e.length;n++){const r=e[n];t[r]=c[r]}};Object.assign=function(c){const e=[].slice.call(arguments,1);for(let n,r=0;r<e.length;r++)n=e[r],n&&t(c,n);return c}}export{};

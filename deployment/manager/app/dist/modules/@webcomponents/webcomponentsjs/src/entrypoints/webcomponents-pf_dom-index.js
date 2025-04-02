@@ -1,0 +1,2 @@
+/*! For license information please see webcomponents-pf_dom-index.js.LICENSE.txt */
+import"../platform/custom-event.js";import"../platform/event-listener-options.js";import"../platform/baseuri.js";import"../platform/get-attribute-names.js";import"../platform/matches.js";import"../platform/parent-node/index.js";import"../platform/child-node/index.js";import"../platform/svg-element-class-list.js";import"../platform/toggle-attribute.js";

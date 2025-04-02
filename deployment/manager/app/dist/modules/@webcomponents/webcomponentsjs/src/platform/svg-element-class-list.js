@@ -1,0 +1,2 @@
+/*! For license information please see svg-element-class-list.js.LICENSE.txt */
+const Element_prototype=window.Element.prototype,HTMLElement_prototype=window.HTMLElement.prototype,SVGElement_prototype=window.SVGElement.prototype;!HTMLElement_prototype.hasOwnProperty("classList")||Element_prototype.hasOwnProperty("classList")||SVGElement_prototype.hasOwnProperty("classList")||Object.defineProperty(Element_prototype,"classList",Object.getOwnPropertyDescriptor(HTMLElement_prototype,"classList"));export{};

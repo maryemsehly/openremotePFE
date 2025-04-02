@@ -1,0 +1,2 @@
+/*! For license information please see append.js.LICENSE.txt */
+const nativeAppendChild=Node.prototype.appendChild,installAppend=e=>{const n=e.prototype;n.hasOwnProperty("append")||Object.defineProperty(n,"append",{configurable:!0,enumerable:!0,writable:!0,value:function(...e){for(const n of e)nativeAppendChild.call(this,"string"==typeof n?document.createTextNode(n):n)}})};installAppend(Document),installAppend(DocumentFragment),installAppend(Element);export{};

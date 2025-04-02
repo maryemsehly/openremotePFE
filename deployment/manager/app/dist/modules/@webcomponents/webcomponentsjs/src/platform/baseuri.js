@@ -1,0 +1,2 @@
+/*! For license information please see baseuri.js.LICENSE.txt */
+const native_baseURI=Object.getOwnPropertyDescriptor(Node.prototype,"baseURI");native_baseURI||Object.defineProperty(Node.prototype,"baseURI",{get(){const e=(this.ownerDocument||this).querySelector("base[href]");return e&&e.href||window.location.href},configurable:!0,enumerable:!0});export{};

@@ -1,0 +1,2 @@
+/*! For license information please see matches.js.LICENSE.txt */
+var _a;const Element_prototype=Element.prototype;Element_prototype.hasOwnProperty("matches")||(Element_prototype.matches=null!==(_a=Element_prototype.webkitMatchesSelector)&&void 0!==_a?_a:Element_prototype.msMatchesSelector);export{};

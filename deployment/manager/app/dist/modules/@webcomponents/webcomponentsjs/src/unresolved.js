@@ -1,0 +1,2 @@
+/*! For license information please see unresolved.js.LICENSE.txt */
+const style=document.createElement("style");style.textContent="body {transition: opacity ease-in 0.2s; } \nbody[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } \n";const head=document.querySelector("head");head.insertBefore(style,head.firstChild);export{};
