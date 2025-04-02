@@ -704,7 +704,7 @@ jobs:
 
       - name: Scan manager docker image
         if: steps.manager-docker-command.outputs.pushRequired == 'true'
-        uses: anchore/scan-action@v3
+        uses: anchore/scan-action@v6
         id: manager-anchore-scan
         with:
           image: ${{ steps.manager-docker-command.outputs.managerDockerImage }}
